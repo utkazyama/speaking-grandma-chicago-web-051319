@@ -4,9 +4,10 @@
 def speak_to_grandma(shout)
   if shout=='I LOVE YOU GRANDMA!'
    return 'I LOVE YOU TOO PUMPKIN!'
-   elsif shout==shout.upcase
+ end
+ if shout==shout.upcase
    return "NO, NOT SINCE 1938!"
- elsif shout!=shout.upcase
+ else 
    return "HUH?! SPEAK UP, SONNY!"
  end
 end
