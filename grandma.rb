@@ -3,11 +3,11 @@
  
 def speak_to_grandma(shout)
   if shout=='I LOVE YOU GRANDMA!'
-   'I LOVE YOU TOO PUMPKIN!'
+   return 'I LOVE YOU TOO PUMPKIN!'
    elsif shout==shout.upcase
-   "NO, NOT SINCE 1938!"
+   return "NO, NOT SINCE 1938!"
  elsif shout!=shout.upcase
-   "HUH?! SPEAK UP, SONNY!"
+   return "HUH?! SPEAK UP, SONNY!"
  end
 end
 
